@@ -34,3 +34,24 @@ ul .active {
   border-bottom: 1px solid #0282f9;
   color: #0282f9;
 }
+
+#comics {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+#comics #upper-button {
+  position: relative;
+  bottom: 75px;
+  right: 300px;
+}
+#comics .comics-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+#comics span {
+  color: #fff;
+  background-color: #0282f9;
+  padding: 10px 30px;
+}

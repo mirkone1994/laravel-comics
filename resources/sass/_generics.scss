@@ -31,8 +31,8 @@ ul .active {
 #comics{
     text-align: center;
     padding: 4rem 1rem;
-    background-color: #1c1c1c;
-    color: #fff;
+    background-color: $almostblack;
+    color: $white;
     #upper-button {
         position: relative;
         bottom: 75px;
@@ -43,8 +43,8 @@ ul .active {
         flex-wrap: wrap;
     }
     span {
-        color: #fff;
-        background-color: #0282f9;
+        color: $white;
+        background-color: $blue;
         padding: 10px 30px;
     }
 }

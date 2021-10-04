@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ asset('css/app.css')}}">
-    <title>Document</title>
-</head>
-<body>
-    @include('includes.header')
-    @include('includes.main')
-</body>
-</html>
+@extends('layouts.main')
+@section('content')
+<section id="comics">
+    <span id="upper-button">CURRENT SERIES</span>
+    <section class="comics-grid container">
+        @foreach ($comics as $comic)
+        <div class="comics-card">
+            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+            <h3>{{ $comic['series'] }}</h3>
+        </div>
+        @endforeach
+    </section>
+    <span>LOAD MORE</span>
+</section>
+@endsection

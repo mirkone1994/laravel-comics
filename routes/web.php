@@ -14,10 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-})->name('home');
-
-Route::get('includes/main', function () {
     $comics = [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
@@ -231,5 +227,5 @@ Route::get('includes/main', function () {
             ],
         ],
     ];
-    return view('main', ['comics' => $comics]);
-})->name('main');
+    return view('home', ['comics' => $comics]);
+})->name('home');

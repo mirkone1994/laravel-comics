@@ -60,6 +60,14 @@ ul .active {
   padding: 10px 30px;
 }
 
+.jumbotron {
+  height: 400px;
+  background-image: url("../images/jumbotron.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .section.info {
   background-color: #0282f9;
   position: relative;

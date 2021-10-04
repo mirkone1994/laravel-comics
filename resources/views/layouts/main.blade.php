@@ -9,6 +9,7 @@
 </head>
 <body>
     @include('includes.header')
+    @include('includes.jumbotron')
     @yield('content')
     @include('includes.info')
     @include('includes.links')

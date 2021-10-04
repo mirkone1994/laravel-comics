@@ -1,0 +1,33 @@
+.section.footer {
+    background-color: #303030;
+    height: 150px;
+    z-index: 2;
+    position: relative;
+    .container {
+        height: 100%;
+        .row {
+        height: 100%;
+        .col {
+            .sign-up {
+                color: $white;
+                border: 1px solid $blue;
+                padding: 5px 10px;
+            }
+            .container {
+                .row {
+                    .col.social {
+                        padding-right: 20px;
+                    }
+                    .follow {
+                        color: $blue;
+                        font-size: 1.5em;
+                    }
+
+                }
+            }
+        }
+    }
+    }
+    
+}   
+    

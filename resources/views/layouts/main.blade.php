@@ -12,5 +12,6 @@
     @yield('content')
     @include('includes.info')
     @include('includes.links')
+    @include('includes.footer')
 </body>
 </html>

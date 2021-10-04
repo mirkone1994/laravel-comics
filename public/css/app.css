@@ -124,3 +124,28 @@ span.info {
   position: relative;
   bottom: 50px;
 }
+
+.section.footer {
+  background-color: #303030;
+  height: 150px;
+  z-index: 2;
+  position: relative;
+}
+.section.footer .container {
+  height: 100%;
+}
+.section.footer .container .row {
+  height: 100%;
+}
+.section.footer .container .row .col .sign-up {
+  color: #fff;
+  border: 1px solid #0282f9;
+  padding: 5px 10px;
+}
+.section.footer .container .row .col .container .row .col.social {
+  padding-right: 20px;
+}
+.section.footer .container .row .col .container .row .follow {
+  color: #0282f9;
+  font-size: 1.5em;
+}

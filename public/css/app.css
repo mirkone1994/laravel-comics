@@ -50,8 +50,77 @@ ul .active {
   display: flex;
   flex-wrap: wrap;
 }
+#comics .comics-grid .comics-card {
+  flex-basis: 16.6666666667%;
+  padding: 20px 0;
+}
 #comics span {
   color: #fff;
   background-color: #0282f9;
   padding: 10px 30px;
+}
+
+.section.info {
+  background-color: #0282f9;
+  position: relative;
+  z-index: 2;
+}
+
+.container.info {
+  height: 200px;
+}
+
+.row.info {
+  justify-content: space-around;
+  height: 100%;
+}
+
+.col.info {
+  display: flex;
+  align-items: center;
+}
+
+img.info {
+  height: 50px;
+}
+
+span.info {
+  vertical-align: center;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.jumbotrone {
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.row.links {
+  align-items: flex-start;
+}
+
+.col.url {
+  width: 400px;
+}
+
+.links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.links-title {
+  color: #fff;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #8c8c8d;
+}
+
+.logo-bg {
+  height: 400px;
+  position: relative;
+  bottom: 50px;
 }

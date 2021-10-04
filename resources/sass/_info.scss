@@ -1,0 +1,24 @@
+.section.info {
+    background-color: $blue;
+    position: relative;
+    z-index: 2;
+}
+.container.info {
+    height: 200px;
+}
+.row.info {
+    justify-content: space-around;
+    height: 100%;
+}
+.col.info {
+    display: flex;
+    align-items: center;
+}
+img.info {
+    height: 50px;
+}
+span.info {
+    vertical-align: center;
+    color: $white;
+    padding-left: 10px;
+}

@@ -41,6 +41,10 @@ ul .active {
     .comics-grid{
         display: flex;
         flex-wrap: wrap;
+        .comics-card{
+            flex-basis: calc(100% / 6);
+            padding: 20px 0;
+        }
     }
     span {
         color: $white;
@@ -48,3 +52,5 @@ ul .active {
         padding: 10px 30px;
     }
 }
+@import "info";
+@import "links"

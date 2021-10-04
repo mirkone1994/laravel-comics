@@ -10,5 +10,7 @@
 <body>
     @include('includes.header')
     @yield('content')
+    @include('includes.info')
+    @include('includes.links')
 </body>
 </html>

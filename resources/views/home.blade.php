@@ -5,7 +5,7 @@
     <section class="comics-grid container">
         @foreach ($comics as $comic)
         <div class="comics-card">
-            <a href="{{ url("/comics/$loop->index") }}"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}"></a>
+            <a href="{{ route('comic', ['id' => $loop->index]) }}"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}"></a>
             <h3>{{ $comic['series'] }}</h3>
         </div>
         @endforeach

@@ -3,7 +3,7 @@
       <div class="row info">
           @foreach ($info as $info)
           <div class="col info">
-              <img class="info" src="{{ $info['image'] }}" alt="{{ $info['text']}} ">
+              <img class="info" src="{{ asset($info['image']) }}" alt="{{ $info['text']}} ">
               <span class="info">{{ $info['text'] }}</span>
           </div>     
           @endforeach

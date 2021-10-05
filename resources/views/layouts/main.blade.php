@@ -11,7 +11,6 @@
     @include('includes.header')
     @include('includes.jumbotron')
     @yield('comics')
-    @yield('comic')
     @include('includes.info')
     @include('includes.links')
     @include('includes.footer')

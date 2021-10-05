@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('comic')
+@section('comics')
 <section class="comic-detail">
     <img src={{ $comic['thumb'] }} alt="">
     <div class="container">

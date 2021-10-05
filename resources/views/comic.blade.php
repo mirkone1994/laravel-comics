@@ -1,14 +1,14 @@
 @extends('layouts.main')
 @section('comics')
 <section class="comic-detail">
-    <img src={{ $comic['thumb'] }} alt="">
+    <img class="comic" src={{ $comic['thumb'] }} alt="">
     <div class="container">
-        <div class="row">
+        <div class="row up">
             <div class="col">
                 <h1>{{ $comic['title'] }} </h1>
-                <div class="container">
+                <div class="container bordered">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-9">
                             <div class="container">
                                 <div class="row">
                                     <div class="col">{{ $comic['price'] }}</div>
@@ -16,16 +16,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">CHECK AVAILBILITY</div>
+                        <div class="col-1">CHECK AVAILBILITY</div>
                     </div>
                 </div>
                 <p>{{ $comic['description'] }}</p>
             </div>
-            <div class="col">
+            <div class="col adv">
+                <h3>ADVERTISEMENT</h3>
                 <img src={{ asset('images/adv.jpg')}} alt="">
             </div>
         </div>
-        <div class="row">
+        <div class="row down">
             <div class="col">
                 <h3>Talent</h3>
                 <span>Art by: </span>

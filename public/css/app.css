@@ -157,3 +157,43 @@ span.info {
   color: #0282f9;
   font-size: 1.5em;
 }
+
+.comic-detail {
+  position: relative;
+  margin: 100px 0;
+}
+.comic-detail .comic {
+  position: absolute;
+  top: -350px;
+  left: 315px;
+}
+.comic-detail .container .row.up .col h1 {
+  color: #0282f9;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.comic-detail .container .row.up .col .container.bordered {
+  background-color: #0ccf0c;
+  color: #fff;
+  padding: 10px 0;
+  border: 1px solid #1c1c1c;
+}
+.comic-detail .container .row.up .col .container.bordered .row .col-9 {
+  width: 80%;
+}
+.comic-detail .container .row.up .col .container.bordered .row .col-9 .container .row {
+  justify-content: space-between;
+}
+.comic-detail .container .row.up .col p {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+.comic-detail .container .row.up .col.adv {
+  padding: 50px;
+}
+.comic-detail .container .row.up .col.adv h3 {
+  text-align: end;
+}
+.comic-detail .container .row.down {
+  background-color: #faf6f6;
+}
